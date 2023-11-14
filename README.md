@@ -21,9 +21,7 @@ Data Set : https://www.kaggle.com/code/robikscube/economic-analysis-with-pandas-
     [Read more](https://mortada.net/python-api-for-fred.html)
 
 ---------------------------------------------------
-<details>
-
-<summary>##### Steps followed :</summary>
+### Steps followed :
 
 1. Connect to FRED API
 - Create FRED object using Api key
@@ -49,8 +47,13 @@ Data Set : https://www.kaggle.com/code/robikscube/economic-analysis-with-pandas-
 
 4. Pull and Join Multiple Data Series
     ```python
-    
+    unemp_df = fred.search('unemployment rate state', filter=('frequency', 'Monthly'))
+    unemp_df = unemp_df.query('seasonal_adjustment == "Seasonally Adjusted" and units == "Percent"')
+    unemp_df = unemp_df.loc[unemp_df['title'].str.contains('Unemployment Rate')]
     ```   
+<details>
+
+<summary>Steps followed :</summary>
 
 </details>
 
