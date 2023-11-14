@@ -23,4 +23,14 @@ Data Set : https://www.kaggle.com/code/robikscube/economic-analysis-with-pandas-
 
 ---------------------------------------------------
 
-### Steps followed to create dashboard:
+### Steps followed :
+##### Step 1: 
+  * Connect to FRED API
+    - Create FRED object using Api key
+    - Search for S&P data
+    - 
+    - 
+
+
+![image](https://github.com/hashinil/python_economy_analysis/assets/33922245/a25ebc15-4489-4d3f-97a2-21d4b0ac819c)
+
