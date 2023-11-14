@@ -8,6 +8,13 @@ Data Set : https://www.kaggle.com/code/robikscube/economic-analysis-with-pandas-
 ---------------------------------------------------
 
 ### Technology:
+- Python
+  * Fred API <!-- fred_key='40378ef4ec282efb723bf3ac977aa973' -->
+  * Pandas
+  * Numpy
+  * Matplotlib
+  * Plotly
+
 ##### Step 1: Data Collection:
   * Use [FRED API](https://pypi.org/project/fredapi/) to download data. 
     fredapi is a Python API for the FRED data provided by the Federal Reserve Bank of St. Louis. fredapi provides a wrapper in python to the FRED web service
