@@ -21,8 +21,10 @@ Data Set : https://www.kaggle.com/code/robikscube/economic-analysis-with-pandas-
     [Read more](https://mortada.net/python-api-for-fred.html)
 
 ---------------------------------------------------
+<details>
 
-##### Steps followed :
+<summary>##### Steps followed :</summary>
+
 1. Connect to FRED API
 - Create FRED object using Api key
 
@@ -49,19 +51,6 @@ Data Set : https://www.kaggle.com/code/robikscube/economic-analysis-with-pandas-
     ```python
     
     ```   
-<details>
-
-<summary>Tips for collapsed sections</summary>
-
-### You can add a header
-
-You can add text within a collapsed section. 
-
-You can add an image or a code block, too.
-
-```ruby
-   puts "Hello World"
-```
 
 </details>
 
